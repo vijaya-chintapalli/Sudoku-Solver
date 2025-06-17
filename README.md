@@ -18,7 +18,7 @@ A Java-based Sudoku Solver with a user-friendly GUI built using Swing. Supports:
 
 ## 📷 Screenshot
 
-![sudoku](./screenshot.png)
+[![sudoku](./screenshot.png)](https://github.com/vijaya-chintapalli/Sudoku-Solver/blob/main/SudokuSolver.png)
 
 ## 🚀 How to Run
 
