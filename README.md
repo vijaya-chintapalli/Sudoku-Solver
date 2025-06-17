@@ -1,15 +1,27 @@
-# Sudoku Solver - Java
+# 🧩 Sudoku Solver with Java Swing GUI
 
-A simple command-line Java application that solves any valid 9x9 Sudoku puzzle using the Backtracking algorithm.
+A Java-based Sudoku Solver with a user-friendly GUI built using Swing. Supports:
+- Manual input
+- Puzzle solving with backtracking
+- Cell-by-cell navigation (arrow keys)
+- One-step hint system
+- Input validation with error highlighting
 
-## Features
-- Solves puzzles with backtracking (recursive)
-- Validates rows, columns, and 3x3 subgrids
-- Easy to customize input
+## 💻 Features
 
-## How to Run
-1. Clone this repo
-2. Compile and run:
+- ✅ Validates user input in real-time
+- 🎨 Highlights incorrect entries
+- ➡️ Navigate with arrow keys (`← ↑ ↓ →`)
+- 🔍 Hint button gives a single cell solution
+- 🧠 "Solve" button auto-solves the puzzle
+- 🧼 "Clear" button clears the selected cell
+
+## 📷 Screenshot
+
+![sudoku](./screenshot.png)
+
+## 🚀 How to Run
+
 ```bash
-javac SudokuSolver.java
-java SudokuSolver
+javac SudokuSolver.java SudokuGUI.java
+java SudokuGUI
